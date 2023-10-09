@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Example</title>
+</head>
+    <style>.container {
+      position: relative;
+      width: 200px;
+      height: 300px;
+      border: 1px solid #ccc;
+      margin: 20px;
+      }
+      
+    .static-element {
+     width: 50px;
+     height: 50px;
+     background-color: blanchedalmond;
+      }
+      
+   .relative-element [
+   position: relative; 
+   top: 90px;
+   Left: 30px;
+   width: 50px;
+   height: 50px;
+   background-color: black;
+    }
+      
+      .absolute-element{
+    position: absolute;
+     top: 90px;
+    left: 30px;
+    width: 50px;
+    background-color: blueviolet;
+     height: 50px;
+     }
+
+.fixed-element {
+position: fixed;
+top: 40px;
+left: 25px;
+width: 40px;
+height: 50px;
+background-color: navy;
+    }
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+</style></style>
+<body>
+    <div class="container">
+        <div class="static-element"></div>
+    </div>
+    <div class="container">
+        <div class="relative-element"></div>
+    </div>
+    <div class="container">
+        <div class="absolute-element"></div>
+    </div>
+    <div class="container">
+        <div class="fixed-element"></div>
+    </div>
+    <div class="container flex-container">
+        <div><img src="plant.jpg" alt="Image 1"></div>
+        <div><img src="nature.jpg" alt="Image 2"></div>
+        <div><img src="color%20tree.jpg" alt="Image 3"></div>
+        <div><img src="nature3.jpg" alt="Image 4"></div>
+        <div><img src="nature2.jpg" alt="Image 5"></div>
+        <div><img src="nature0.jpg" alt="Image 6"></div>
+        <div><img src="nature5.jpg" alt="Image 7"></div>
+    </div>
+</body>
+</html>
